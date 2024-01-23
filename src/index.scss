@@ -1,0 +1,37 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-background: #ffff;
+  --color-text: #0000;
+  --color-grey-dark: rgb(63 63 70);
+  --color-grey-light: #52525b;
+  --color-blue-dark: rgb(63 63 70);
+  --color-blue-light: #52525b;
+  // --color-border: rgba(255, 255, 255, 0.1);
+  // --color-background-card: rgb(27, 23, 36);
+  // --color-section-divider: rgba(245, 245, 245, 0.1);
+  // --border-radius-card: 12px;
+  --gradient: linear-gradient(
+    to right,
+    var(--color-blue-light),
+    var(--color-blue-dark)
+  );
+  // --gradient-2: linear-gradient(
+  //   to right,
+  //   var(--color-purple),
+  //   var(--color-blue-dark)
+  // );
+  --spacing: 2rem;
+}
+
+a,
+a:link {
+  color: inherit;
+  text-decoration: none;
+}
