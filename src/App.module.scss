@@ -1,0 +1,46 @@
+.app {
+  background: var(--color-background);
+  color: var(--color-text);
+}
+
+.header {
+  background: var(--color-background);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-style: outset;
+  padding: 1rem;
+
+  nav {
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+    }
+
+    li {
+      a {
+        padding: 0.5rem;
+      }
+    }
+  }
+}
+
+.logo {
+  img {
+    height: 2rem;
+  }
+}
+
+.form {
+  max-width: 960px;
+  height: 448px;
+  margin: auto;
+  border: 0 solid #e4e4e7;
+}
+
+.button {
+}
+
+.button2 {
+}
